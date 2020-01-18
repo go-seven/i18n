@@ -1,0 +1,9 @@
+{
+  "locale": "en",
+  "messages": {
+    "Authentication.Button.Enter": "Enter",
+    "Authentication.Button.Register": "Register",
+    "Homepage.Features": "Features",
+    "Homepage.Pricing": "Pricing"
+  }
+}

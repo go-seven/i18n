@@ -1,0 +1,9 @@
+{
+  "locale": "it",
+  "messages": {
+    "Authentication.Button.Enter": "Accedi",
+    "Authentication.Button.Register": "Registrati",
+    "Homepage.Features": "Caratteristiche",
+    "Homepage.Pricing": "Prezzi"
+  }
+}

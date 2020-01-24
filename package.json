@@ -9,7 +9,7 @@
     "build:locales": "run-p build:locale:*",
     "build:locale:en": "markdown2code --lang yaml English.md | cson2json > dist/en.json",
     "build:locale:it": "markdown2code --lang yaml Italiano.md | cson2json > dist/it.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",

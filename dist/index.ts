@@ -1,6 +1,3 @@
-# Go Seven internationalization
-
-```typescript
 import * as en from "./en.json"
 import * as it from "./it.json"
 
@@ -24,4 +21,3 @@ export const locales = [
 
 export const localeCodes = locales.map(({ code }) => code)
 export const localeNames = locales.map(({ name }) => name)
-```

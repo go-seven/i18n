@@ -1,12 +1,14 @@
 {
   "name": "go-seven-i18n",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
-  "description": "",
+  "description": "Go Seven internationalization",
   "scripts": {
     "build": "run-p build:*",
-    "build:en": "markdown2code --lang yaml English.md | cson2json > dist/en.json",
-    "build:it": "markdown2code --lang yaml Italiano.md | cson2json > dist/it.json",
+    "build:index.ts": "markdown2code --lang typescript Readme.md > dist/index.ts",
+    "build:locales": "run-p build:locale:*",
+    "build:locale:en": "markdown2code --lang yaml English.md | cson2json > dist/en.json",
+    "build:locale:it": "markdown2code --lang yaml Italiano.md | cson2json > dist/it.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +25,8 @@
   },
   "homepage": "https://go7.li",
   "peerDependencies": {
-    "react-intl": "*"
+    "react-intl": "*",
+    "tslib": "*"
   },
   "devDependencies": {
     "cson": "^6.9.0",

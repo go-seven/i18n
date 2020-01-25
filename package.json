@@ -11,6 +11,9 @@
     "build:locale:it": "markdown2code --lang yaml Italiano.md | cson2json > dist/it.json",
     "test": "node test.js"
   },
+  "pre-commit": [
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/go-seven/i18n.git"
@@ -31,6 +34,7 @@
   "devDependencies": {
     "cson": "^6.9.0",
     "markdown2code": "^1.0.2",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "pre-commit": "^1.2.2"
   }
 }

@@ -23,7 +23,7 @@ messages:
 ### Homepage Hero
 
 ```yaml
-'Homepage.Hero.Tagline1': 'Abbrevia gratuitamente le tue URL.'
-'Homepage.Hero.Tagline2': 'Sfrutta un ottimo strumento di analisi.'
-'Homepage.Hero.Welcome': 'Benvenuto in Go Seven. Puoi creare le tue URL accorciate, gestire comodamente le tue campagne di marketing, monitorando le statistiche sui click e condividendo i risultati con i tuoi collaboratori.'
+  'Homepage.Hero.Tagline1': 'Abbrevia gratuitamente le tue URL.'
+  'Homepage.Hero.Tagline2': 'Sfrutta un ottimo strumento di analisi.'
+  'Homepage.Hero.Welcome': 'Benvenuto in Go Seven. Puoi creare le tue URL accorciate, gestire comodamente le tue campagne di marketing, monitorando le statistiche sui click e condividendo i risultati con i tuoi collaboratori.'
 ```

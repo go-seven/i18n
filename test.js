@@ -6,6 +6,8 @@ const it = require('./dist/it.json')
 const defaultLanguage = en
 const translations = [it]
 
+assert.equal(Object.keys(defaultLanguage).sort().join(), 'locale,messages', 'translation keys')
+
 translations.forEach(translation => {
   Object.keys(translation.messages).forEach(key => {
     if (Object.keys(defaultLanguage.messages).includes(key)) return

@@ -23,7 +23,7 @@ messages:
 ### Homepage Hero
 
 ```yaml
-'Homepage.Hero.Tagline1': 'Free URL shortener.'
-'Homepage.Hero.Tagline2': 'A powerful analysis tool.'
-'Homepage.Hero.Welcome': 'Welcome to Go Seven. You can shorten your URLs, easily manage Marketing Campaings, monitor your click statistics and share results with your collaborators.'
+  'Homepage.Hero.Tagline1': 'Free URL shortener.'
+  'Homepage.Hero.Tagline2': 'A powerful analysis tool.'
+  'Homepage.Hero.Welcome': 'Welcome to Go Seven. You can shorten your URLs, easily manage Marketing Campaings, monitor your click statistics and share results with your collaborators.'
 ```

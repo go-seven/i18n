@@ -1,37 +1,36 @@
 export default {
-  "Authentication": {
-    "Action": {
-      "Enter": "Authentication.Action.Enter",
-      "Register": "Authentication.Action.Register"
+  "authentication": {
+    "action": {
+      "enter": "authentication.action.enter",
+      "register": "authentication.action.register"
     },
-    "Input": {
-      "Email": {
-        "label": "Authentication.Input.Email.label"
+    "input": {
+      "email": {
+        "label": "authentication.input.email.label"
       },
-      "Password": {
-        "label": "Authentication.Input.Password.label"
+      "password": {
+        "label": "authentication.input.password.label"
       }
     }
   },
-  "EnterPage": {
-    "header": "EnterPage.header",
-    "forgotPassword": "EnterPage.forgotPassword",
-    "newUser": "EnterPage.newUser"
+  "enterPage": {
+    "forgotPassword": "enterPage.forgotPassword",
+    "newUser": "enterPage.newUser"
   },
-  "HomePage": {
-    "Features": {
-      "title": "HomePage.Features.title"
+  "homePage": {
+    "features": {
+      "title": "homePage.features.title"
     },
-    "Hero": {
-      "tagline1": "HomePage.Hero.tagline1",
-      "tagline2": "HomePage.Hero.tagline2",
-      "welcome": "HomePage.Hero.welcome"
+    "hero": {
+      "tagline1": "homePage.hero.tagline1",
+      "tagline2": "homePage.hero.tagline2",
+      "welcome": "homePage.hero.welcome"
     },
-    "Pricing": {
-      "title": "HomePage.Pricing.title"
+    "pricing": {
+      "title": "homePage.pricing.title"
     },
-    "Transparency": {
-      "message": "HomePage.Transparency.message"
+    "transparency": {
+      "message": "homePage.transparency.message"
     }
   }
 }

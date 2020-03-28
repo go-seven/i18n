@@ -1,18 +1,17 @@
 {
   "locale": "en",
   "messages": {
-    "Authentication.Action.Enter": "Enter",
-    "Authentication.Action.Register": "Register",
-    "Authentication.Input.Email.label": "Email",
-    "Authentication.Input.Password.label": "Password",
-    "EnterPage.header": "Enter Go Seven",
-    "EnterPage.forgotPassword": "Forgot password?",
-    "EnterPage.newUser": "Are you a new user?",
-    "HomePage.Features.title": "Features",
-    "HomePage.Hero.tagline1": "Free URL shortener.",
-    "HomePage.Hero.tagline2": "A powerful analysis tool.",
-    "HomePage.Hero.welcome": "Welcome to Go Seven. You can shorten your URLs, easily manage Marketing Campaings, monitor your click statistics and share results with your collaborators.",
-    "HomePage.Pricing.title": "Pricing",
-    "HomePage.Transparency.message": "Go Seven is a secure and transparent service. We do not use cookies at all."
+    "authentication.action.enter": "Enter",
+    "authentication.action.register": "Register",
+    "authentication.input.email.label": "Email",
+    "authentication.input.password.label": "Password",
+    "enterPage.forgotPassword": "Forgot password?",
+    "enterPage.newUser": "Are you a new user?",
+    "homePage.features.title": "Features",
+    "homePage.hero.tagline1": "Free URL shortener.",
+    "homePage.hero.tagline2": "A powerful analysis tool.",
+    "homePage.hero.welcome": "Welcome to Go Seven. You can shorten your URLs, easily manage Marketing Campaings, monitor your click statistics and share results with your collaborators.",
+    "homePage.pricing.title": "Pricing",
+    "homePage.transparency.message": "Go Seven is a secure and transparent service. We do not use cookies at all."
   }
 }

@@ -3,22 +3,21 @@
 ## Authentication
 
 ```yaml
-Authentication:
-  Action:
-    Enter: 'Enter'
-    Register: 'Register'
-  Input:
-    Email:
+authentication:
+  action:
+    enter: 'Enter'
+    register: 'Register'
+  input:
+    email:
       label: 'Email'
-    Password:
+    password:
       label: 'Password'
 ```
 
 ## Enter page
 
 ```yaml
-EnterPage:
-  header: 'Enter Go Seven'
+enterPage:
   forgotPassword: 'Forgot password?'
   newUser: 'Are you a new user?'
 ```
@@ -26,16 +25,16 @@ EnterPage:
 ## Homepage
 
 ```yaml
-HomePage:
-  Features:
+homePage:
+  features:
     title: 'Features'
-  Hero:
+  hero:
     tagline1: 'Free URL shortener.'
     tagline2: 'A powerful analysis tool.'
     welcome: 'Welcome to Go Seven. You can shorten your URLs, easily manage Marketing Campaings, monitor your click statistics and share results with your collaborators.'
-  Pricing:
+  pricing:
     title: 'Pricing'
-  Transparency:
+  transparency:
     message: 'Go Seven is a secure and transparent service. We do not use cookies at all.'
 ```
 

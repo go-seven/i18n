@@ -2,13 +2,19 @@
   "name": "go-seven-i18n",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "description": "Go Seven internationalization",
   "scripts": {
-    "build": "run-p build:*",
-    "build:index.ts": "markdown2code --lang typescript Readme.md > dist/index.ts",
-    "build:locales": "run-p build:locale:*",
-    "build:locale:en": "markdown2code --lang yaml English.md | cson2json > dist/en.json",
-    "build:locale:it": "markdown2code --lang yaml Italiano.md | cson2json > dist/it.json",
+    "build": "run-s generate_index generate_locales generate_message_ids",
+    "generate_index": "markdown2code --lang typescript Readme.md > dist/index.ts",
+    "generate_locales": "run-s generate_translation_trees generate_translations",
+    "generate_message_ids": "node generateMessageIds.js en",
+    "generate_translation_trees": "run-p generate:translation_tree:*",
+    "generate_translations": "run-p generate:translation:*",
+    "generate:translation_tree:en": "markdown2code --lang yaml English.md | cson2json > en.json",
+    "generate:translation_tree:it": "markdown2code --lang yaml Italiano.md | cson2json > it.json",
+    "generate:translation:en": "node generateTranslation.js en",
+    "generate:translation:it": "node generateTranslation.js it",
     "test": "node test.js"
   },
   "pre-commit": [
@@ -35,6 +41,8 @@
     "cson": "^6.9.0",
     "markdown2code": "^1.0.2",
     "npm-run-all": "^4.1.5",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "read-file-utf8": "^2.0.1",
+    "write-file-utf8": "^2.0.1"
   }
 }

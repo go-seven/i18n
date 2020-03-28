@@ -1,9 +1,15 @@
 # Go Seven internationalization
 
+### Import translations
+
 ```typescript
 import * as en from './en.json'
 import * as it from './it.json'
+```
 
+## Locales
+
+```typescript
 export const defaultLocale = en.locale
 
 export const config = {
@@ -25,3 +31,4 @@ export const locales = [
 export const localeCodes = locales.map(({ code }) => code)
 export const localeNames = locales.map(({ name }) => name)
 ```
+

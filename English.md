@@ -1,29 +1,41 @@
 # Go Seven - English translation
 
-```yaml
-locale: 'en'
-messages:
-```
-
 ## Authentication
 
 ```yaml
-  'Authentication.Button.Enter': 'Enter'
-  'Authentication.Button.Register': 'Register'
+Authentication:
+  Action:
+    Enter: 'Enter'
+    Register: 'Register'
+  Input:
+    Email:
+      label: 'Email'
+    Password:
+      label: 'Password'
+```
+
+## Enter page
+
+```yaml
+EnterPage:
+  header: 'Enter Go Seven'
+  forgotPassword: 'Forgot password?'
+  newUser: 'Are you a new user?'
 ```
 
 ## Homepage
 
 ```yaml
-  'Homepage.Features': 'Features'
-  'Homepage.Pricing': 'Pricing'
-  'Homepage.Transparency': 'Go Seven is a secure and transparent service. We do not use cookies at all.'
+HomePage:
+  Features:
+    title: 'Features'
+  Hero:
+    tagline1: 'Free URL shortener.'
+    tagline2: 'A powerful analysis tool.'
+    welcome: 'Welcome to Go Seven. You can shorten your URLs, easily manage Marketing Campaings, monitor your click statistics and share results with your collaborators.'
+  Pricing:
+    title: 'Pricing'
+  Transparency:
+    message: 'Go Seven is a secure and transparent service. We do not use cookies at all.'
 ```
 
-### Homepage Hero
-
-```yaml
-  'Homepage.Hero.Tagline1': 'Free URL shortener.'
-  'Homepage.Hero.Tagline2': 'A powerful analysis tool.'
-  'Homepage.Hero.Welcome': 'Welcome to Go Seven. You can shorten your URLs, easily manage Marketing Campaings, monitor your click statistics and share results with your collaborators.'
-```

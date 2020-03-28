@@ -1,1 +1,5 @@
 node_modules
+
+# Generated translation trees
+en.json
+it.json

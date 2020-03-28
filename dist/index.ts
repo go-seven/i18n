@@ -1,21 +1,20 @@
-import * as en from "./en.json"
-import * as it from "./it.json"
-
+import * as en from './en.json'
+import * as it from './it.json'
 export const defaultLocale = en.locale
 
 export const config = {
   en,
-  it,
+  it
 }
 
 export const locales = [
   {
     code: en.locale,
-    name: "English",
+    name: 'English'
   },
   {
     code: it.locale,
-    name: "Italiano",
+    name: 'Italiano'
   }
 ]
 

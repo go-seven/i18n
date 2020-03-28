@@ -1,13 +1,18 @@
 {
   "locale": "it",
   "messages": {
-    "Authentication.Button.Enter": "Accedi",
-    "Authentication.Button.Register": "Registrati",
-    "Homepage.Features": "Caratteristiche",
-    "Homepage.Pricing": "Tariffe",
-    "Homepage.Transparency": "Go Seven è un servizio sicuro e trasparente. Non utilizziamo nessun tipo di cookies.",
-    "Homepage.Hero.Tagline1": "Abbrevia gratuitamente le tue URL.",
-    "Homepage.Hero.Tagline2": "Sfrutta un ottimo strumento di analisi.",
-    "Homepage.Hero.Welcome": "Benvenuto in Go Seven. Puoi creare le tue URL accorciate, gestire comodamente le tue campagne di marketing, monitorando le statistiche sui click e condividendo i risultati con i tuoi collaboratori."
+    "Authentication.Action.Enter": "Accedi",
+    "Authentication.Action.Register": "Registrati",
+    "Authentication.Input.Email.label": "Email",
+    "Authentication.Input.Password.label": "Password",
+    "EnterPage.header": "Entra in Go Seven",
+    "EnterPage.forgotPassword": "Password dimenticata?",
+    "EnterPage.newUser": "Sei un nuovo utente?",
+    "HomePage.Features.title": "Caratteristiche",
+    "HomePage.Hero.tagline1": "Abbrevia gratuitamente le tue URL.",
+    "HomePage.Hero.tagline2": "Sfrutta un ottimo strumento di analisi.",
+    "HomePage.Hero.welcome": "Benvenuto in Go Seven. Puoi creare le tue URL accorciate, gestire comodamente le tue campagne di marketing, monitorando le statistiche sui click e condividendo i risultati con i tuoi collaboratori.",
+    "HomePage.Pricing.title": "Tariffe",
+    "HomePage.Transparency.message": "Go Seven è un servizio sicuro e trasparente. Non utilizziamo nessun tipo di cookies."
   }
 }

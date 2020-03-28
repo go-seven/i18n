@@ -1,3 +1,4 @@
 *.md
 LICENSE
+generateTranslation.js
 test.js
